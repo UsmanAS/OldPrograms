@@ -1,0 +1,10 @@
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\bin\Debug\Graphs.exe.config
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\bin\Debug\Graphs.XML
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\bin\Debug\Graphs.exe
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\bin\Debug\Graphs.pdb
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\bin\Debug\FSharp.Core.dll
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\bin\Debug\nunit.framework.dll
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\bin\Debug\FSharp.Core.xml
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\bin\Debug\nunit.framework.xml
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\obj\Debug\Graphs.exe
+C:\Users\Usman\Desktop\09-28-Graphs\Graphs\obj\Debug\Graphs.pdb

@@ -1,0 +1,2 @@
+Condition		Trigger
+Load/use hazard		E_icode E {IPOPQ, RMMOVQ) && E_dstM E (d_srcA, d_srcB}
