@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Usman Siddiqui usiddi4</title>
+<title>CS 425 Homework 2 Amusement Park</title>
+    <script id="vertex-shader" type="x-shader/x-vertex">
+        attribute vec3 vPosition;
+        attribute vec3 vColor;
+        
+        uniform mat4 vModelView;
+        uniform mat4 vProjection;
+        uniform mat4 vTransformation;
+        varying vec4 color;
+        void
+        main()
+        {
+        gl_Position = vProjection * vModelView * vTransformation * vec4(vPosition, 1.0);
+        color = vec4(vColor, 1.0);
+        }
+    </script>
+    <script id="fragment-shader" type="x-shader/x-fragment">
+        precision mediump float;
+
+        varying vec4 color;
+
+        void
+        main()
+        {
+        gl_FragColor = color;
+        }
+    </script>
+    <script type="text/javascript" src="../Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../Common/initShaders.js"></script>
+    <script type="text/javascript" src="../Common/MV.js"></script>
+    <script type="text/javascript" src="merryGoRoundDriver.js"></script>
+    <script type="text/javascript" src="cone.js"></script>
+    <script type="text/javascript" src="axes.js"></script>
+    <script type="text/javascript" src="merryGoRound.js"></script>
+</head>
+<body>
+    <p align="center">Created by Usman Siddiqui</p>
+    <p align="center">CS 425 Homework 2 Amusement Park</p>
+    <canvas id="gl-canvas" width="1000" height="512">
+        Oops ... your browser doesn't support the HTML5 canvas element
+    </canvas>
+    <style>
+    .exp{visibility: hidden;}
+    </style>
+    <div class="exp">
+        <p class="info">W to go left, A to go up, S to go down, D to go right</p>
+        <p>R to reset, F to go Faster</p>
+    </div>
+</body>
+</html>
